@@ -13,6 +13,10 @@ const ProjectsSection = () => {
     });
   };
 
+  const handleFormClick = () => {
+    window.location.href = 'https://forms.gle/V4Lj6G5xKGgUpfkT7';
+  }
+
   return (
     <S.Section>
       <S.TopBackground id="projectsSection" />
@@ -60,6 +64,10 @@ const ProjectsSection = () => {
           ))}
         </S.ProjectCategoryList>
       </S.SectionInner>
+
+      <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
+          <S.SectionTitle><strong onClick={handleFormClick}>EL 지원하러가기</strong></S.SectionTitle>
+        </AnimationOnScroll>
     </S.Section>
   );
 };

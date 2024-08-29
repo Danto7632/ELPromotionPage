@@ -64,6 +64,11 @@ export const SectionTitle = styled.h2`
   color: ${Colors.white};
   white-space: pre-wrap;
 
+  & > strong {
+    color: ${Colors.crowdflower};
+    cursor: pointer; /* 마우스 커서 손 모양으로 변경 */
+  }
+
   @media (max-width: ${BREAKPOINTS[1]}px) {
     margin-bottom: 18px;
     font-size: 48px;

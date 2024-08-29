@@ -23,10 +23,6 @@ const HomePage = () => {
     window.location.href = ('https://6yoon.github.io/');
   };
 
-  const handleFormClick = () => {
-    window.location.href = 'https://forms.gle/V4Lj6G5xKGgUpfkT7';
-  }
-
   return (
     <PageLayout header={<Header />} footer={<Footer />}>
       <S.Container>
@@ -83,10 +79,6 @@ const HomePage = () => {
         </S.DevtiSection>
 
         <ProjectsSection />
-
-        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
-          <S.SectionTitle onClick={handleFormClick}>EL 지원하러가기</S.SectionTitle>
-        </AnimationOnScroll>
 
       </S.Container>
     </PageLayout>
