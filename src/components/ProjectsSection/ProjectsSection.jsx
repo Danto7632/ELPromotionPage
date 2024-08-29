@@ -66,8 +66,8 @@ const ProjectsSection = () => {
       </S.SectionInner>
 
       <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
-          <S.SectionTitle><strong onClick={handleFormClick}>EL 지원하러가기</strong></S.SectionTitle>
-        </AnimationOnScroll>
+        <S.SectionEnd onClick={handleFormClick}>EL 지원하러가기</S.SectionEnd>
+      </AnimationOnScroll>
     </S.Section>
   );
 };

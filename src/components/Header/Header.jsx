@@ -39,7 +39,7 @@ const Header = () => {
             활동 소개
           </S.NavItem>
           <S.NavDivider />
-          <S.NavItem onClick={handleFormClick}>지원하기</S.NavItem>
+          <S.NavItem><strong onClick={handleFormClick}>지원하기</strong></S.NavItem>
         </S.Nav>
       </S.Inner>
     </S.Header>

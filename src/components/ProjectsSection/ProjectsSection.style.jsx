@@ -64,11 +64,6 @@ export const SectionTitle = styled.h2`
   color: ${Colors.white};
   white-space: pre-wrap;
 
-  & > strong {
-    color: ${Colors.crowdflower};
-    cursor: pointer; /* 마우스 커서 손 모양으로 변경 */
-  }
-
   @media (max-width: ${BREAKPOINTS[1]}px) {
     margin-bottom: 18px;
     font-size: 48px;
@@ -134,6 +129,28 @@ export const SectionNavItem = styled.a`
     & > span {
       font-size: 16px;
     }
+  }
+`;
+
+export const SectionEnd = styled.h1`
+  margin-top: 200px;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.3;
+  white-space: pre-wrap;
+  
+  text-decoration: underline solid ${Colors.crowdflower};
+  color: ${Colors.crowdflower};
+  cursor: pointer; /* 마우스 커서 손 모양으로 변경 */
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    margin-bottom: 18px;
+    font-size: 48px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    margin-bottom: 14px;
+    font-size: 32px;
   }
 `;
 

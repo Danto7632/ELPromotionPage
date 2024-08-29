@@ -65,6 +65,10 @@ export const NavItem = styled.a`
     font-weight 0.2s ease,
     color 0.2s ease;
 
+  & > strong {
+    text-decoration: underline solid ${Colors.lightGrey};
+  }
+
   @media (max-width: ${BREAKPOINTS[1]}px) {
     font-size: 15px;
   }

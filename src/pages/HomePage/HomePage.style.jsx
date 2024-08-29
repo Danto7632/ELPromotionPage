@@ -133,6 +133,7 @@ export const SectionDescription = styled.p`
   word-break: keep-all;
 
   & > strong {
+    text-decoration: underline solid ${Colors.blue};
     color: ${Colors.blue};
     cursor: pointer; /* 마우스 커서 손 모양으로 변경 */
   }
