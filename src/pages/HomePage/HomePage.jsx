@@ -19,9 +19,13 @@ const HomePage = () => {
     sendViewPageEvent('HOME_PAGE');
   }, []);
 
-  const handleFormClick = () => {
-    window.open('https://6yoon.github.io/', '_blank');
+  const handleDevtiClick = () => {
+    window.location.href = ('https://6yoon.github.io/');
   };
+
+  const handleFormClick = () => {
+    window.location.href = 'https://forms.gle/V4Lj6G5xKGgUpfkT7';
+  }
 
   return (
     <PageLayout header={<Header />} footer={<Footer />}>
@@ -66,19 +70,24 @@ const HomePage = () => {
           </S.AboutELSectionInner>
         </S.AboutELSection>
 
-        <S.MemberSection>
+        <S.DevtiSection>
           <S.SectionTitle>개발성격 유형검사 Devti</S.SectionTitle>
           <S.SectionDescription>
-            아래의 카드를 클릭하여 당신의 <strong onClick={handleFormClick}>Devti</strong>를 확인해보세요.
+            아래의 카드를 클릭하여 당신의 <strong onClick={handleDevtiClick}>Devti</strong>를 확인해보세요.
             
           </S.SectionDescription>
           <S.DevtiCardSection>
             <DevtiCard />
             <StackCard />
           </S.DevtiCardSection>
-        </S.MemberSection>
+        </S.DevtiSection>
 
         <ProjectsSection />
+
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
+          <S.SectionTitle onClick={handleFormClick}>EL 지원하러가기</S.SectionTitle>
+        </AnimationOnScroll>
+
       </S.Container>
     </PageLayout>
   );

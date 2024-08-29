@@ -163,7 +163,7 @@ export const AboutELSectionInner = styled(SectionInner)`
   gap: 40px;
 `;
 
-export const MemberSection = styled.section`
+export const DevtiSection = styled.section`
   position: relative;
   width: 100%;
   height: fit-content;
