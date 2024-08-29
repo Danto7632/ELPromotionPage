@@ -74,5 +74,23 @@ export const ACTIVITY_LIST = [
       '내용1\n내용2\n내용3',
     description:
       '내용1\n내용2\n내용3',
+  },
+  {
+    id: 6,
+    name: 'EXPO 프로젝트',
+    category: CATEGORIES.PROJECT,
+    imageUrl: '/images/thumbnail/img-thumbnail-3.png',
+    downloadLinkUrl: null,
+    webpageLinkUrl: 'https://www.dongyang.ac.kr/dongyang/129/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGZG9uZ3lhbmclMkY3JTJGMTI5MTY2JTJGYXJ0Y2xWaWV3LmRvJTNGaXNWaWV3TWluZSUzRGZhbHNlJTI2YmJzQ2xTZXElM0QlMjZzcmNoV3JkJTNEJTI2cmdzQmduZGVTdHIlM0QlMjZwYWdlJTNEMyUyNmJic09wZW5XcmRTZXElM0QlMjZyZ3NFbmRkZVN0ciUzRCUyNnNyY2hDb2x1bW4lM0QlMjZwYXNzd29yZCUzRCUyNg%3D%3D',
+    githubUrls: {
+      clientUrl: 'https://github.com/2024-dmu-expo-el/2024-dmu-expo-el-front',
+      serverUrl: 'https://github.com/2024-dmu-expo-el/2024-dmu-expo-el-back',
+      gameUrl: 'https://github.com/Danto7632/LeafTale',
+    },
+    summary: '엑스포 짱이다',
+    introduction:
+      '내용1\n내용2\n내용3',
+    description:
+      '내용1\n내용2\n내용3',
   }
 ];
