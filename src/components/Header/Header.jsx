@@ -22,8 +22,9 @@ const Header = () => {
     }
   };
 
+  // 기존에 새 탭을 여는 방식에서 같은 창에서 열도록 변경
   const handleFormClick = () => {
-    window.open('https://forms.gle/V4Lj6G5xKGgUpfkT7', '_blank');
+    window.location.href = 'https://forms.gle/V4Lj6G5xKGgUpfkT7';
   };
 
   return (

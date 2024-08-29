@@ -2,7 +2,7 @@ import * as S from './Footer.style';
 
 const FOOTER_INFO_LIST = [
   {
-    title: '개발 & 디자인',
+    title: '개발',
     contentList: ['김인성 (컴퓨터소프트웨어공학과 23)'],
   },
 ];
