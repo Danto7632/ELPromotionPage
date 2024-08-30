@@ -67,9 +67,9 @@ const HomePage = () => {
         </S.AboutELSection>
 
         <S.DevtiSection>
-          <S.SectionTitle>개발성격 유형검사 Devti</S.SectionTitle>
+          <S.SectionTitle>개발성격 유형검사 DevTI</S.SectionTitle>
           <S.SectionDescription>
-            아래의 카드를 클릭하여 당신의 <strong onClick={handleDevtiClick}>Devti</strong>를 확인해보세요.
+            아래의 카드를 클릭하여 당신의 <strong onClick={handleDevtiClick}>DevTI</strong>를 확인해보세요.
             
           </S.SectionDescription>
           <S.DevtiCardSection>
