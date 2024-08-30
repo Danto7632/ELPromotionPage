@@ -8,7 +8,9 @@ export const ACTIVITY_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-1.png',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
-    githubUrls: null,
+    githubUrls: {
+      clientUrl: null
+    },
     summary: 'MT 재밌당',
     introduction:
       '내용1\n내용2\n내용3',
@@ -22,7 +24,9 @@ export const ACTIVITY_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-1.png',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
-    githubUrls: null,
+    githubUrls: {
+      clientUrl: null
+    },
     summary: 'MT 재밌당',
     introduction:
       '내용1\n내용2\n내용3',
@@ -36,7 +40,9 @@ export const ACTIVITY_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-2.png',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
-    githubUrls: null,
+    githubUrls: {
+      clientUrl: null
+    },
     summary: '튜터링 좋다',
     introduction:
       '내용1\n내용2\n내용3',
@@ -50,7 +56,9 @@ export const ACTIVITY_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-2.png',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
-    githubUrls: null,
+    githubUrls: {
+      clientUrl: null
+    },
     summary: '튜터링 좋다',
     introduction:
       '내용1\n내용2\n내용3',
