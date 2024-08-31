@@ -159,24 +159,24 @@ export const PochakImgContainer = styled.div`
   gap: 12px;
   width: 100%;
 
-  /* 기본 상태: 최대 4개 이미지 좌우 정렬 */
+  /* 기본 상태: 최대 2개 이미지 좌우 정렬 */
   & > img {
-    width: calc(25% - 12px); /* 4개 이미지 시 좌우 정렬 */
+    width: calc(50% - 12px); /* 2개 이미지 시 좌우 정렬 */
     height: auto;
     aspect-ratio: 16 / 9;
     border-radius: 8px;
   }
 
-  /* 모바일에서 2개까지 좌우 정렬 후 나머지 세로로 나열 */
+  /* 모바일에서 세로로 나열 */
   @media (max-width: ${BREAKPOINTS[1]}px) {
     & > img {
-      width: calc(50% - 12px); /* 2개까지 좌우 정렬 */
+      width: 100%;
     }
   }
 
   @media (max-width: ${BREAKPOINTS[0]}px) {
     & > img {
-      width: calc(50% - 12px); /* 2개까지 좌우 정렬 */
+      width: 100%;
     }
   }
 `;
@@ -224,7 +224,7 @@ export const PreviousButton = styled.button`
   border-radius: 25px;
   background-color: ${Colors.blue};
   color: ${Colors.white};
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   text-align: center;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
@@ -243,7 +243,7 @@ export const NextButton = styled.button`
   border-radius: 25px;
   background-color: ${Colors.blue};
   color: ${Colors.white};
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   text-align: center;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};

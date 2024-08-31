@@ -55,12 +55,11 @@ const HomePage = () => {
             <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
               <S.SectionTitle>EL 소개</S.SectionTitle>
               <S.SectionDescription>
-                EL에서는 게임 / 웹/ 앱 등
-                <br /> 본인이 관심을 가진 다양한 분야의 프로젝트를 통해
-                <br />
-                개발 능력과 협업 능력 향상시키며 함께 성장합니다.
-                <br />
-                활발한 소통과 피드백을 통해 개인과 공동체 발전을 촉진합니다.
+                
+EL 동아리에서는 게임, 웹, 앱 등
+<br />본인이 관심 있는 다양한 분야의 프로젝트를 진행하며 개발 능력과 협업 능력을 함께 키워나갑니다.
+<br /><br />활발한 소통과 피드백을 통해
+<br />개인의 성장과 공동체 발전을 지원합니다.
               </S.SectionDescription>
             </AnimationOnScroll>
           </S.AboutELSectionInner>

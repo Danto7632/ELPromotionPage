@@ -18,6 +18,6 @@ export const CATEGORY_LIST = [
   {
     id: 3,
     category: CATEGORIES.PROJECT,
-    label: '프로젝트',
+    label: '프로젝트(본인참여)',
   },
 ];
