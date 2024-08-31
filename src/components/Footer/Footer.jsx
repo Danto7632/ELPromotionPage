@@ -3,7 +3,7 @@ import * as S from './Footer.style';
 const FOOTER_INFO_LIST = [
   {
     title: '개발',
-    contentList: ['김인성 (컴퓨터소프트웨어공학과 23)'],
+    contentList: ['김인성 (EL 홍보부장 | 컴소과 23)'],
   },
 ];
 

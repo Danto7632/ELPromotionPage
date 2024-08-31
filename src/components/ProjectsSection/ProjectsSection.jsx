@@ -15,7 +15,11 @@ const ProjectsSection = () => {
 
   const handleFormClick = () => {
     window.location.href = 'https://forms.gle/V4Lj6G5xKGgUpfkT7';
-  }
+  };
+
+  const handleInquiryClick = () => {
+    window.location.href = 'https://open.kakao.com/o/s9Ea9eMg';
+  };
 
   return (
     <S.Section>
@@ -67,6 +71,7 @@ const ProjectsSection = () => {
 
       <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
         <S.SectionEnd onClick={handleFormClick}>EL 지원하러가기</S.SectionEnd>
+        <S.InquiryButton onClick={handleInquiryClick}>EL 카카오톡 문의방</S.InquiryButton>
       </AnimationOnScroll>
     </S.Section>
   );

@@ -150,7 +150,7 @@ export const SectionEnd = styled.h1`
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
     margin-bottom: 14px;
-    font-size: 32px;
+    font-size: 40px;
   }
 `;
 
@@ -272,5 +272,22 @@ export const ProjectSummary = styled.p`
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
     font-size: 14px;
+  }
+`;
+
+export const InquiryButton = styled.div`
+  width: 200px;
+  margin: 20px auto 0 auto; /* 중앙 배치 (상단 여백 20px) */
+  padding: 10px 15px; /* 크기 조정 */
+  background-color: ${Colors.crowdflower};
+  color: ${Colors.white};
+  font-size: 20px; /* 텍스트 크기 조정 */
+  text-align: center;
+  border-radius: 20px; /* 둥근 모서리 */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: ${Colors.darkBlue};
   }
 `;
