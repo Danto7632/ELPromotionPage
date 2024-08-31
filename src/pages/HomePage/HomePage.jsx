@@ -31,7 +31,7 @@ const HomePage = () => {
             <S.MainSectionTitle>
               Embedded Linux
               <br />
-              EL에 오신것을
+              <strong>EL</strong>에 오신것을
               <br />
               환영합니다.
             </S.MainSectionTitle>

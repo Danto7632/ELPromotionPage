@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
-import { Colors } from '../../theme';
 import styled from '@emotion/styled';
 import { BREAKPOINTS } from '../../styles';
+import { Colors } from '../../theme';
 
 export const Inner = styled.div`
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 60px;
   padding: 90px 20px 20px;
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
@@ -18,7 +18,19 @@ export const Inner = styled.div`
   }
 `;
 
-// YouTubeWrap 스타일 삭제됨
+export const YouTubeWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px;
+
+  & > .projectPage__youTube {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+  }
+`;
 
 export const ImageWrap = styled.div`
   display: flex;
@@ -141,17 +153,31 @@ export const SectionDescription = styled.p`
   }
 `;
 
-// POCHAK 이미지
 export const PochakImgContainer = styled.div`
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 12px;
   width: 100%;
 
+  /* 기본 상태: 최대 4개 이미지 좌우 정렬 */
   & > img {
+    width: calc(25% - 12px); /* 4개 이미지 시 좌우 정렬 */
+    height: auto;
     aspect-ratio: 16 / 9;
     border-radius: 8px;
+  }
+
+  /* 모바일에서 2개까지 좌우 정렬 후 나머지 세로로 나열 */
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    & > img {
+      width: calc(50% - 12px); /* 2개까지 좌우 정렬 */
+    }
+  }
+
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    & > img {
+      width: calc(50% - 12px); /* 2개까지 좌우 정렬 */
+    }
   }
 `;
 
@@ -180,5 +206,50 @@ export const Section = styled.section`
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
     gap: 18px;
+  }
+`;
+
+export const NavigationButtons = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* Adjust the space between buttons as needed */
+  margin-top: 40px;
+`;
+
+export const PreviousButton = styled.button`
+  display: ${props => (props.hidden ? 'none' : 'block')};
+  width: 170px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: ${Colors.blue};
+  color: ${Colors.white};
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: ${props => (props.disabled ? Colors.blue : Colors.darkBlue)};
+  }
+`;
+
+export const NextButton = styled.button`
+  display: ${props => (props.hidden ? 'none' : 'block')};
+  width: 170px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: ${Colors.blue};
+  color: ${Colors.white};
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: ${props => (props.disabled ? Colors.blue : Colors.darkBlue)};
   }
 `;

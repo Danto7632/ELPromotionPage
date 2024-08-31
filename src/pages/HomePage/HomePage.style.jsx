@@ -40,6 +40,12 @@ export const MainSectionTitle = styled.h1`
   line-height: normal;
   color: ${Colors.white};
 
+  &> strong {
+    text-shadow: 5px 5px gray;
+    color: #cceaf5;
+    font-size: 130px;
+  }
+
   @media (max-width: ${BREAKPOINTS[1]}px) {
     font-size: 68px;
   }
