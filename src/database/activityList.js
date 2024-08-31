@@ -36,7 +36,7 @@ export const ACTIVITY_LIST = [
     githubUrls: {
       clientUrl: null,
     },
-    summary: '술 꿀꺽꿀꺽굴꺽굵걱..',
+    summary: '동아리원 간 소통과 친목의 시간',
     introduction:
       '🍻 "한잔합시다!" 회식은 동아리의 필수 문화!\n팀원들과의 유대감을 강화하고 스트레스를 날려버리세요!',
     description:

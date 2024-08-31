@@ -34,7 +34,7 @@ export const MainSectionInner = styled(SectionInner)`
 `;
 
 export const MainSectionTitle = styled.h1`
-  font-size: 80px;
+  font-size: 92px;
   font-weight: 800;
   text-align: center;
   line-height: normal;
@@ -50,7 +50,7 @@ export const MainSectionTitle = styled.h1`
     font-size: 68px;
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
-    font-size: 40px;
+    font-size: 30px;
   }
 `;
 
