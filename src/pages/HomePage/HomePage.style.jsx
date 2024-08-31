@@ -34,7 +34,7 @@ export const MainSectionInner = styled(SectionInner)`
 `;
 
 export const MainSectionTitle = styled.h1`
-  font-size: 92px;
+  font-size: 85px;
   font-weight: 800;
   text-align: center;
   line-height: normal;
