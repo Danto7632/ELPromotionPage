@@ -45,7 +45,7 @@ const HomePage = () => {
               <S.SectionTitle>
                 {'EL은 컴소과 유일의 PD Lab Pre-Star 선정 동아리입니다.'}
               </S.SectionTitle>
-              <S.SectionDescription>2023년기준 한이음ICT, 교내/교외 대회수상, 논문게재를 포함하여 7가지의 실적을 이뤄냈습니다..</S.SectionDescription>
+              <S.SectionDescription>2023년기준 한이음ICT, 교내/교외 대회수상, 논문게재를 포함하여 7가지의 실적을 이뤄냈습니다.</S.SectionDescription>
             </AnimationOnScroll>
           </S.MessageSectionInner>
         </S.MessageSection>
