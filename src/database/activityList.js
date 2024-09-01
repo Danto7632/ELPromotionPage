@@ -145,9 +145,7 @@ export const ACTIVITY_LIST = [
     downloadLinkUrl: null,
     webpageLinkUrl: null,
     githubUrls: {
-      clientUrl: 'https://github.com/2024-dmu-expo-el/2024-dmu-expo-el-front',
-      serverUrl: 'https://github.com/2024-dmu-expo-el/2024-dmu-expo-el-back',
-      gameUrl: 'https://github.com/Danto7632/LeafTale',
+      gameUrl: 'https://github.com/Danto7632/LeafTale'
     },
     summary: 'KES 2024 (동양미래EXPO)',
     introduction:
