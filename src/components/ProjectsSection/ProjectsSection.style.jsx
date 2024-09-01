@@ -127,7 +127,7 @@ export const SectionNavItem = styled.a`
     padding: 8px 10px;
 
     & > span {
-      font-size: 16px;
+      font-size: 13px;
     }
   }
 `;
