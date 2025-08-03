@@ -1,5 +1,5 @@
 # 🖥️ EL 동아리 홍보 페이지  
-![Main Image](/public/images/readme/main.png)
+![Main Image](/public/images/readme/\main.png)
 > 동양미래대학교 컴퓨터소프트웨어학과 전공동아리 EL 홍보 웹사이트  
 > 개발일자: 2024.09.01  
 > 배포 링크: [https://el-promotion-page.vercel.app](배포링크)
